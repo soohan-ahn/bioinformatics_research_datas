@@ -5,8 +5,7 @@ The data and materials that I used during the research assistant in Hanyang Univ
 MODa algorithm is the algorithm for peptide identification from MS/MS data based on dynamic programming. 
 There are two versions for MODa. First one is OneMOD which allows only less than one PTM, and the another one is MultiMOD which allows arbitrary number of PTMs. The 99% of peptide identified from MultiMOD has less than 2 PTMs.  In this paper, we proposed the novel version of MODa - TwoMOD, which allows identifying the peptide that has less than 2-PTMs. We improved the time complexity from  to  comparing with MultiMOD. In the experiment, the running time has been improved about 30%, and we successfully identified the peptides which has less than 2 PTMs.
 
-# Shotgun proteomics data analysis using personalized protein sequence database built from RNA-seq
-results from the same sample
+# Shotgun proteomics data analysis using personalized protein sequence database built from RNA-seq results from the same sample
 Results from data analysis of shotgun proteomics depend on the protein sequence database searched for
 LC-MS/MS spectra. With the availability of faster and cheaper next generation sequencing, a personalized
 protein database can be made readily available. We expect such a sample-specific protein sequence
